@@ -1,0 +1,8 @@
+test-output/
+target/
+.idea/
+TestAssets/TestData/~$*.xlsx
+logfile.log
+*.iml
+*.jar
+*.rar

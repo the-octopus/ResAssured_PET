@@ -61,7 +61,7 @@ This module is the main entry point for the execution.
 We will run our project from selecting main method and run it through the InteliJ IDEA.
 
 
-## PET used in this project:
+## On line Sample API used in this project:
 We are using the PET on line as example [http://petstore.swagger.io/#/] 
 
 

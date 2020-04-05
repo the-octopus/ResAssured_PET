@@ -1,4 +1,4 @@
-package com.Hybrid.hunger.Utilities.core;
+package com.theoctopus.java.HybridRestAssured.Utilities.core;
 
 
 import com.aventstack.extentreports.ExtentTest;

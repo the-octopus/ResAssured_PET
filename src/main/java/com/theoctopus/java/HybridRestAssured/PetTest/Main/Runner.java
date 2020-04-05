@@ -1,11 +1,10 @@
-package com.Hybrid.hunger.Pet.Main;
+package com.theoctopus.java.HybridRestAssured.PetTest.Main;
 
 
-import com.Hybrid.hunger.Utilities.core.Driver;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.Driver;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.Common;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import static com.Hybrid.hunger.Utilities.core.Common.getStackTrace;
 
 public class Runner {
 
@@ -16,7 +15,7 @@ public class Runner {
 
             Driver.ExecuteTestSuite();
         } catch (Exception e) {
-            LOGGER.error(getStackTrace(e));
+            LOGGER.error(Common.getStackTrace(e));
         }
     }
 

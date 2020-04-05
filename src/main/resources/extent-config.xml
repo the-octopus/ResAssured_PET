@@ -18,9 +18,7 @@
         <!-- report name - displayed at top-nav -->
         <reportName>
 
-            <![CDATA[
-                <img src='https://hungerstation.com/website-assets/6ea0b4eaa2504339a6f107a4087cf8b1.svg' />
-            ]]>
+            PET Test Example
 
 
         </reportName>

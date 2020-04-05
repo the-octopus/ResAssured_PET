@@ -1,6 +1,7 @@
-package com.Hybrid.hunger.Pet.Test;
+package com.theoctopus.java.HybridRestAssured.PetTest.Test;
 
-import com.Hybrid.hunger.Utilities.core.Global;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.Global;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.Common;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
@@ -11,7 +12,6 @@ import org.testng.Assert;
 
 import java.util.Hashtable;
 
-import static com.Hybrid.hunger.Utilities.core.Common.getStackTrace;
 import static io.restassured.RestAssured.given;
 import static io.restassured.path.json.JsonPath.from;
 
@@ -78,7 +78,7 @@ public class PetAPI {
             return response;
 
         } catch (Exception e) {
-            LOGGER.error(getStackTrace(e));
+            LOGGER.error(Common.getStackTrace(e));
             return null;
         }
     }
@@ -97,7 +97,7 @@ public class PetAPI {
             }
         } catch (Exception e) {
 
-            LOGGER.error(getStackTrace(e));
+            LOGGER.error(Common.getStackTrace(e));
 
         }
 
@@ -116,7 +116,7 @@ public class PetAPI {
             }
         } catch (Exception e) {
 
-            LOGGER.error(getStackTrace(e));
+            LOGGER.error(Common.getStackTrace(e));
 
         }
 

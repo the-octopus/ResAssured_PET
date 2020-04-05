@@ -1,4 +1,4 @@
-package com.Hybrid.hunger.Utilities.core;
+package com.theoctopus.java.HybridRestAssured.Utilities.core;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -21,7 +21,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-import static com.Hybrid.hunger.Utilities.core.Common.getStackTrace;
+import static com.theoctopus.java.HybridRestAssured.Utilities.core.Common.getStackTrace;
 
 
 public class Driver {
@@ -137,8 +137,8 @@ public class Driver {
             xmlSuite.setName(Global.Test.ProjectName + "_Suite");
             xmlSuite.setVerbose(1);
             try {
-                xmlSuite.addListener("com.Hybrid.hunger.Utilities.listeners.invokeMethodListener");
-                xmlSuite.addListener("com.Hybrid.hunger.Utilities.listeners.ITestListenerReporter");
+                xmlSuite.addListener("invokeMethodListener");
+                xmlSuite.addListener("ITestListenerReporter");
 
             } catch (Exception ex) {
                 LOGGER.error("Adding Listeners To TestNg Command Line Suite Failed.", ex);

@@ -41,13 +41,13 @@ Contains shared libraries to handle all interaction in the framework and also as
 
 ### **com.Hybrid.hunger.Utilities.core**:
 
- * **com.Hybrid.hunger.Utilities.core.DataManager** : used to handle reading and updating data from excel sheet.
+ * **DataManager** : used to handle reading and updating data from excel sheet.
 
- * **com.Hybrid.hunger.Utilities.core.Driver**: used to handle the execution of the test by reading test cases from excel sheet, reading test data, invoking the test methods as per test data and reporting.
+ * **Driver**: used to handle the execution of the test by reading test cases from excel sheet, reading test data, invoking the test methods as per test data and reporting.
 
- * **com.Hybrid.hunger.Utilities.core.Global** : used to create global variables in the project like [Global.Test.Browser].
+ * **Global** : used to create global variables in the project like [Global.Test.Browser].
 
-* **com.Hybrid.hunger.Utilities.core.Common** : Some Common general purpose methods.
+* **Common** : Some Common general purpose methods.
 
 ### **com.Hybrid.hunger.Pet.Test**:
 Contains the test methods.
@@ -72,7 +72,7 @@ We are using the PET on line as example [http://petstore.swagger.io/#/]
  3. Configure the Excel Control file , The Driver sheet with the name of your test scenario method Select which method to execute by flag yes/no.  file [ TestAssets/TestData/TestData.xlsx ]
  4. Define your test data as in Excel Control file , PetServiceDetails sheet 
  5. Save all you work.
- 6. Got to Class com.Hybrid.hunger.Pet.Main.Runner.
+ 6. Got to Class Runner.
  8. run the test by using the /main method.
  9. The system will run the test and generate a HTML report with date and time stamp name as per the bellow example 
 	Reports/Automation_Result_2020_03_19_103241/Automation_Report.html

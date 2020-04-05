@@ -1,10 +1,10 @@
-package com.Hybrid.hunger.Utilities.listeners;
+package com.theoctopus.java.HybridRestAssured.Utilities.listeners;
 
 
-import com.Hybrid.hunger.Utilities.core.DataManager;
-import com.Hybrid.hunger.Utilities.core.Global;
-import com.Hybrid.hunger.Utilities.core.Common;
-import com.Hybrid.hunger.Utilities.core.Driver;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.DataManager;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.Global;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.Common;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.Driver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.*;

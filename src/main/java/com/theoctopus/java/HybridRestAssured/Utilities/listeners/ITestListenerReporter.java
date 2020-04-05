@@ -1,13 +1,13 @@
-package com.Hybrid.hunger.Utilities.listeners;
+package com.theoctopus.java.HybridRestAssured.Utilities.listeners;
 
 
-import com.Hybrid.hunger.Utilities.core.DataManager;
-import com.Hybrid.hunger.Utilities.core.Global;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.DataManager;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.Global;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.Hybrid.hunger.Utilities.core.Driver;
+import com.theoctopus.java.HybridRestAssured.Utilities.core.Driver;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

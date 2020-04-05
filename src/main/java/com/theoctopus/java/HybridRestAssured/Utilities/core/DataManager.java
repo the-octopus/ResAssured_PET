@@ -1,4 +1,4 @@
-package com.Hybrid.hunger.Utilities.core;
+package com.theoctopus.java.HybridRestAssured.Utilities.core;
 
 import com.codoid.products.exception.FilloException;
 import com.codoid.products.fillo.Fillo;
@@ -15,8 +15,8 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.*;
 
-import static com.Hybrid.hunger.Utilities.core.Common.getStackTrace;
-import static com.Hybrid.hunger.Utilities.core.Global.Environment.ControlFileName;
+import static com.theoctopus.java.HybridRestAssured.Utilities.core.Common.getStackTrace;
+import static com.theoctopus.java.HybridRestAssured.Utilities.core.Global.Environment.ControlFileName;
 
 public class DataManager {
 

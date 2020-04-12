@@ -137,8 +137,8 @@ public class Driver {
             xmlSuite.setName(Global.Test.ProjectName + "_Suite");
             xmlSuite.setVerbose(1);
             try {
-                xmlSuite.addListener("invokeMethodListener");
-                xmlSuite.addListener("ITestListenerReporter");
+                xmlSuite.addListener("com.theoctopus.java.HybridRestAssured.Utilities.listeners.invokeMethodListener");
+                xmlSuite.addListener("com.theoctopus.java.HybridRestAssured.Utilities.listeners.ITestListenerReporter");
 
             } catch (Exception ex) {
                 LOGGER.error("Adding Listeners To TestNg Command Line Suite Failed.", ex);
